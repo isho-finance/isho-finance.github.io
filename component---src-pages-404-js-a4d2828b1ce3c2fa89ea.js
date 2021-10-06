@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_emotion_tailwind_starter=self.webpackChunkgatsby_emotion_tailwind_starter||[]).push([[883],{9616:function(t,n,e){"use strict";e.r(n),e.d(n,{default:function(){return a}});e(7294);var u=e(5588),s=e(3431);function a(){return(0,s.tZ)(u.A,null,(0,s.tZ)("h1",null,"Not Found!"),(0,s.tZ)("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-a4d2828b1ce3c2fa89ea.js.map
