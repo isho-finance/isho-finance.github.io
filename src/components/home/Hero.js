@@ -12,13 +12,9 @@ export default function Hero() {
         <div className="hero-welcome">
           <h1>
             <span className="greeting">
-              Hi there
-              <span role="img" aria-label="Hand wave emoji">
-                👋
-              </span>{' '}
+              Hi, We are
             </span>
-            I'm a <span className="gatsby">Gatsby JS</span> static website
-            template
+            <span className="gatsby">Isho</span> Tech
           </h1>
           {
             //#region
@@ -26,7 +22,7 @@ export default function Hero() {
           <svg
             role="img"
             focusable="false"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             viewBox="0 0 850.538 740.8295"
           >
             <title>Developer illustration by undraw.co</title>
@@ -278,7 +274,7 @@ export default function Hero() {
             //#endregion
           }
         </div>
-        <h2>
+        {/* <h2>
           I come pre-packed with Emotion and Tailwind CSS for styling
           components. I support cool modern features like lazy-loading images,
           code and data splitting, and offline support. Check out the source
@@ -291,8 +287,8 @@ export default function Hero() {
             here
           </a>{' '}
           and go build something cool! <span>{isDark ? '😍' : '😎'}</span>
-        </h2>
-        <ul className="tech">
+        </h2> */}
+        {/* <ul className="tech">
           <li>
             <svg role="img" focusable="false" viewBox="0 0 106 30">
               <title>Gatsby JS logo</title>
@@ -340,7 +336,7 @@ export default function Hero() {
               ></path>
             </svg>
           </li>
-        </ul>
+        </ul> */}
       </section>
     </StyledHero>
   );

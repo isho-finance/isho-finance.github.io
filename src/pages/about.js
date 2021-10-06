@@ -9,7 +9,7 @@ export default function AboutPage() {
       <Seo title="About" description="About Us page" />
       <StyledAboutPg>
         <h1>About</h1>
-        <div>
+        {/* <div>
           <div className="section starter">
             <h2>Gatsby Emotion Tailwind Starter</h2>
             <p>
@@ -96,6 +96,7 @@ export default function AboutPage() {
             </ul>
           </div>
         </div>
+       */}
       </StyledAboutPg>
     </Layout>
   );

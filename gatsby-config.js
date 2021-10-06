@@ -2,10 +2,10 @@ require('dotenv').config({ path: `.env` });
 
 module.exports = {
   siteMetadata: {
-    author: `Chris Williams`,
-    title: `Gatsby Emotion Tailwind Starter`,
-    description: `An example Gatsby starter making use of emotion and tailwind`,
-    siteUrl: `https://gatsby-emotion-tailwind-starter.netlify.app/`,
+    author: `Iso Tech`,
+    title: `Isho Tech`,
+    description: `Isho Blockchain and Finance Technologies`,
+    siteUrl: `https://isho.finance`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -18,13 +18,9 @@ export default function Footer() {
       </p>
       <SocialList />
       <p className="author">
-        Created by{' '}
-        <a
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {siteMetadata.author}
+        Created with ❤️ in{' '}
+        <a>
+          Bangkok
         </a>
       </p>
     </StyledFooter>

@@ -9,7 +9,7 @@ export default function IndexPage() {
     <Layout>
       <Seo description="Home page for a Gatsby Starter, featuring Emotion and Tailwind css" />
       <Hero />
-      <CardGrid />
+      {/* <CardGrid /> */}
     </Layout>
   );
 }

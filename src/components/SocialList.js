@@ -15,7 +15,7 @@ export default function SocialList(props) {
       <li>
         <StyledButton
           as="a"
-          href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
+          href="https://github.com/isho-finance"
           aria-label="github repo"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,7 +23,7 @@ export default function SocialList(props) {
           <FontAwesomeIcon icon={faGithub} />
         </StyledButton>
       </li>
-      <li>
+      {/* <li>
         <StyledButton
           as="a"
           href="https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter"
@@ -55,7 +55,7 @@ export default function SocialList(props) {
         >
           <FontAwesomeIcon icon={faDiscord} />
         </StyledButton>
-      </li>
+      </li> */}
     </StyledSocialList>
   );
 }
