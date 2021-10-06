@@ -1,0 +1,63 @@
+{
+  "name": "gatsby-emotion-tailwind-starter",
+  "description": "A starter Gatsby site which includes Emotion and Tailwind",
+  "version": "3.1.2",
+  "author": "Chris Williams",
+  "repository": "https://github.com/chrismwilliams/gatsby-emotion-tailwind-starter",
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/open-sans": "^4.5.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "dotenv": "^10.0.0",
+    "gatsby": "^3.13.0",
+    "gatsby-plugin-emotion": "^6.13.0",
+    "gatsby-plugin-google-analytics": "^3.13.0",
+    "gatsby-plugin-image": "^1.13.0",
+    "gatsby-plugin-manifest": "^3.13.0",
+    "gatsby-plugin-offline": "^4.13.0",
+    "gatsby-plugin-postcss": "^4.13.0",
+    "gatsby-plugin-purgecss": "^6.0.2",
+    "gatsby-plugin-react-helmet": "^4.13.0",
+    "gatsby-plugin-sharp": "^3.13.0",
+    "gatsby-plugin-sitemap": "^4.9.0",
+    "gatsby-source-filesystem": "^3.13.0",
+    "gatsby-transformer-sharp": "^3.13.0",
+    "postcss": "^8.3.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^2.2.15",
+    "twin.macro": "^2.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "babel-preset-gatsby": "^1.13.0",
+    "cssnano": "^5.0.8",
+    "prettier": "^2.4.1"
+  },
+  "babelMacros": {
+    "twin": {
+      "preset": "emotion"
+    }
+  },
+  "keywords": [
+    "gatsby",
+    "emotion",
+    "tailwindcss",
+    "starter"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop -o",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  }
+}
