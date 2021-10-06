@@ -1,4 +1,6 @@
-<p align="center">
+# isho.finance
+
+<!-- <p align="center">
   <img alt="Gatsby" src="./src/images/icon/logo.png" width="80" />
 </p>
 <h1 align="center">
@@ -104,4 +106,4 @@ The [tailwind docs](https://tailwindcss.com) is a great resource to get you star
 
 - Favicon. Auto-generated from [gatsby-plugin-manifest](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-manifest#readme) set in `gatsby-config.js`. Replace the current favicon (`src/images/icon/logo.png`) with your own 512x512 icon
 
-- Analytics. Add your google analytics id via an .env file `GOOGLE_ANALYTICS` to get started.
+- Analytics. Add your google analytics id via an .env file `GOOGLE_ANALYTICS` to get started. -->
