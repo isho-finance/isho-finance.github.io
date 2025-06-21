@@ -1,10 +1,10 @@
 import tw, { styled } from 'twin.macro';
 
 const StyledToggle = styled.label`
-  ${tw`inline-grid self-center grid-template-areas["input label"] grid-template-columns[2.5rem auto] gap-1 items-center text-sm`};
+  ${tw`inline-grid self-center [grid-template-areas:"input_label"] [grid-template-columns:2.5rem_auto] gap-1 items-center text-sm`};
   input,
   span {
-    ${tw`grid-area[input] h-3 w-8 text-base`};
+    ${tw`[grid-area:input] h-3 w-8 text-base`};
   }
   input {
     ${tw`opacity-0`};
