@@ -4,7 +4,7 @@ const StyledHero = styled.article`
   ${tw`mt-16 md:mt-32`};
 
   .hero-welcome {
-    ${tw`grid grid-template-areas["hero"] items-center`};
+    ${tw`grid [grid-template-areas:"hero"] items-center`};
     > * {
       grid-area: hero;
     }
@@ -35,7 +35,7 @@ const StyledHero = styled.article`
   .tech {
     ${tw`grid items-center grid-cols-3 mt-12 gap-x-2 md:(mt-24 gap-x-8)`};
     li {
-      ${tw`w-full mx-auto light:text-dark md:mx-0 max-width[200px]`};
+      ${tw`w-full mx-auto light:text-dark md:mx-0 [max-width:200px]`};
     }
   }
 `;

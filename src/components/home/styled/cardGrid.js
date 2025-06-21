@@ -18,7 +18,7 @@ const StyledCardGrid = styled.article`
     }
 
     .cards {
-      ${tw`grid mt-16 gap-x-6 gap-y-10 justify-center grid-template-columns[repeat(auto-fit, minmax(250px, 1fr))]`};
+      ${tw`grid mt-16 gap-x-6 gap-y-10 justify-center [grid-template-columns:repeat(auto-fit,_minmax(250px,_1fr))]`};
     }
   }
 `;
