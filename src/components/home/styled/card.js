@@ -3,7 +3,7 @@ import tw, { styled } from 'twin.macro';
 import StyledCardGrid from './cardGrid';
 
 const StyledCard = styled.div`
-  ${tw`relative grid grid-template-rows[minmax(min-content, 450px) 1fr]`};
+  ${tw`relative grid [grid-template-rows:minmax(min-content,_450px)_1fr]`};
 
   ${StyledCardGrid} & {
     ${tw`before:(absolute -inset-0.5 transition duration-200 bg-gradient-to-r from-purple-800 to-turquoise rounded-lg blur opacity-30) hover:before:opacity-70`};
